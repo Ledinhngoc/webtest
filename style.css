@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* Treo toan bộ cả navbar trên đầu */
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+
+.items {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.item a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+/* Di chuyển chuột tới qua thẻ nào đó của nav bar đổi màu */
+/* #header .item a:hover {
+    background-color: lightseagreen;
+    color: whitesmoke;
+} */
+
+#header a img {
+    height: 40px;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+
+}
